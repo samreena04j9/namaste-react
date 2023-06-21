@@ -18,3 +18,21 @@
 -HTTPs
 -Tree Shaking - remove unused code
 -Different dev and prod bundles
+
+#For the Food App the structure
+/**
+ * Header
+ *  -Logo
+ *  -Nav Items
+ * Body
+ *  -Search
+ *  -ResturantContainer
+ *   -ResturantCard
+ *    -Img
+ *    -Name of Res,star rating,cuisine,delivery time
+ * Footer
+ *  -Copyrights
+ *  -Links
+ *  -Address
+ *  -Contact
+ */
