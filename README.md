@@ -36,3 +36,8 @@
  *  -Address
  *  -Contact
  */
+
+ #useEffect
+  useEffect(()=>{},[])
+  useEffect takes two arguments 1 is the callback function and the 2 is depedency.
+  useEffect is called when the render of componenet is done.
