@@ -1,6 +1,7 @@
 #Namaste React 
 
 #PARCEL
+/**
 -Its hepls with Dev Build
 -It Host our App to the Local Server
 -It automatically refreshes the page also which means HMR= Hot Module Replacement
@@ -18,6 +19,7 @@
 -HTTPs
 -Tree Shaking - remove unused code
 -Different dev and prod bundles
+*/
 
 #For the Food App the structure
 /**
@@ -63,7 +65,7 @@
   useEffect is called when the render of the  componenet is done.
 
   ---Dependency arry changes the behaviour of the component
-  
+
     1.If there is no dependency array then it is called on every component render
     
     2.useEffect(()=>{},[])
