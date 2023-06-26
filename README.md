@@ -1,6 +1,6 @@
 #Namaste React 
 
-#parcel
+#PARCEL
 -Its hepls with Dev Build
 -It Host our App to the Local Server
 -It automatically refreshes the page also which means HMR= Hot Module Replacement
@@ -37,7 +37,7 @@
  *  -Contact
  */
  
- ##Two types of Export/Import
+ ##TWO TYPES OF EXPORT/IMPORT
 
  1.Default Export/Import
   export default Component; import Component from "path";
@@ -47,6 +47,7 @@
 
 
 #useState
+
   const[current value,updated value]=useState("initialValue");
    this hook takes intial value as argument
    i.e const[value,setValue]=useState();
@@ -55,11 +56,14 @@
 
 
  #useEffect
+
   useEffect(()=>{},[])
+
   -useEffect takes two arguments 1 is the callback function and the 2 is depedency.
   useEffect is called when the render of the  componenet is done.
 
   ---Dependency arry changes the behaviour of the component
+  
     1.If there is no dependency array then it is called on every component render
     
     2.useEffect(()=>{},[])
@@ -67,6 +71,23 @@
 
     3.useEffect(()=>{},[dependency])
       If the dependency array is not empty [dependency] then useEffect is called everytime the dependency is updated
+
+    4.How to unmount the component?
+        we can use the hook useEffect in this we have a cleanup cycle .Because there are no dependencies in this effect, the cleanupCallback will only be executed when the component will be unmounted and not on every render.
+
+        component will Unmount means...when we move to the next page it clears the data from the component.
+
+        eg:-
+        useEffect(()=>{
+          const timer = setInterval(()=>{
+            console.log("Namaste React")
+          },1000);
+
+          return () =>{
+            clearInterval(timer);
+            console.log("useEffect Return")
+          };
+        },[])
 
 #Routing
  -createRoterBrowser
