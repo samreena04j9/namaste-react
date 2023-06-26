@@ -2,23 +2,23 @@
 
 #PARCEL
 /**
--Its hepls with Dev Build
--It Host our App to the Local Server
--It automatically refreshes the page also which means HMR= Hot Module Replacement
--It Uses File Watching Algorithm which is written in C++
--Caching--Faster Builds
--Parcel also do the Image Optimization
--Minification
--Bundling
--Compress
--Consistant Hashing
--Code Splitting
--Differential Bundling - supports odler browsers
--Diagnostic
--Error Handaling
--HTTPs
--Tree Shaking - remove unused code
--Different dev and prod bundles
+ 1.Its hepls with Dev Build
+ 2.It Host our App to the Local Server
+ 3.It automatically refreshes the page also which means HMR= Hot Module Replacement
+ 4.It Uses File Watching Algorithm which is written in C++
+ 5.Caching--Faster Builds
+ 6.Parcel also do the Image Optimization
+ 7.Minification
+ 8.Bundling
+ 9.Compress
+ 10.Consistant Hashing
+ 11.Code Splitting
+ 12.Differential Bundling - supports odler browsers
+ 13.Diagnostic
+ 14.Error Handaling
+ 15.HTTPs
+ 16.Tree Shaking - remove unused code
+ 17.Different dev and prod bundles
 */
 
 #For the Food App the structure
