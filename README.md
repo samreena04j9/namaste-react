@@ -102,4 +102,22 @@
  useParams()-->
     The useParams() hook is a react router hook that allows us to access the parameters of the current URL.
   
- 
+ #Lazy Loading
+   which also means 
+// Chunking
+// Code Splitting
+// Dynamic Bundling
+// lazy Loading
+// on demand loading
+// dynamix import
+
+When we use Lazy Loading?
+Suppose there are larger projects and the page needed to be loaded only on demand that time we use the lazy loading.
+Instead of loading everything at once which is known as "eagar loading" the browser does not request certain resources until the user interacts in such a way that the resources are needed is known as lazy loading.
+It forms a seperate js folder..
+lazy loading is also refered with different names like chunking ,code splitting,dynamic bundaling,on demand loading,dynamic import
+syntax:-
+const grocery = lazy (() => import("./components/Grocery"))
+  as a callback function it takes the path of the component that needs to be loded.
+And it is used with Suspense the componenet should be wrapped with the Suspense
+eg: <Suspense fallback={Loading...}><Grocery></Suspense>
